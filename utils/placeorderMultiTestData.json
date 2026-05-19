@@ -1,0 +1,21 @@
+[
+     {
+     "username" : "testfl3@gmail.com",
+     "password" : "Welcome11*",
+     "prodName" : "ZARA COAT 3",
+     "cvv" : "123",
+     "nameOnCard" : "John Doe",
+     "couponCode" : "rahulshettyacademy",
+     "country" : "Ind"
+     },
+     {
+     "username" : "testfl3@gmail.com",
+     "password" : "Welcome11*",
+     "prodName" : "ADIDAS ORIGINAL",
+     "cvv" : "123",
+     "nameOnCard" : "John Doe",
+     "couponCode" : "rahulshettyacademy",
+     "country" : "Ind"
+     }
+]
+

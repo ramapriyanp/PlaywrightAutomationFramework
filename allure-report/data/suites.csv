@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","100021","@Web End to End Test","","2026-05-15","broken","2026-05-15","","ClientAppPO.spec.js","",""
+"","23388","@Web Register and Login Test","","2026-05-15","passed","2026-05-15","","ClientApp.spec.js","",""
+"","100172","@Web Pop Up validations","","2026-05-15","broken","2026-05-15","","MoreValidaions.spec.js","",""
