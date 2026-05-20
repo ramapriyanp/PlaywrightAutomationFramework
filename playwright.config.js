@@ -19,7 +19,7 @@ module.exports = defineConfig({
   // ],
 
   reporter: [
-    ['html'],
+    ['html', { open: 'never' }],
     ['line'],
     ['allure-playwright']
   ],
