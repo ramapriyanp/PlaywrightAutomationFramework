@@ -1,23 +1,32 @@
 // @ts-check
-import { defineConfig, devices, expect } from '@playwright/test';
+// import { defineConfig, devices, expect } from '@playwright/test';
+const { defineConfig } = require('@playwright/test');
 
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
-const config = ({
+// const Config = ({
+module.exports = defineConfig({
   testDir: './tests',
   timeout: 50*1000,
   expect:{
     timeout:51000,
   },
-  reporter: 'html',
+  // reporter: 'html',
   // reporter: [
   //   ['line'],
   //   ['allure-playwright']
   // ],
+
+  reporter: [
+    ['html'],
+    ['line'],
+    ['allure-playwright']
+  ],
+
   use: {
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'on',
     // screenshot: 'only-on-failure',
     video: 'retain-on-failure',
@@ -26,4 +35,4 @@ const config = ({
 
 });
 
-module.exports = config;
+// module.exports = Config;
